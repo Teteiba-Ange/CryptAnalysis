@@ -121,9 +121,12 @@ This project is a group effort by the following team members:
 
 _Add your name and ID here_
 
-- **[Menah Lartey Isaiah Nii Lartey] - [11222100]**: Modular Exponentiation Algorithm
+- **[Menah Lartey Isaiah Nii Lartey]    - [11222100]**: Modular Exponentiation Algorithm
 
-- **[⁠Tattah Abel Mawunyo] - [11335775]**: RSA Algorithm Analysis
+- **[⁠Tattah Abel Mawunyo]               - [11335775]**: RSA Algorithm Analysis
+
+- **[Anti Bright Gyeadu]                - [11340436]**: 
+  
   <!-- - **[Angela Acquah] - [11033579]**: -->
 
     <br>
