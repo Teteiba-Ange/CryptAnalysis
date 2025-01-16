@@ -125,9 +125,13 @@ _Add your name and ID here_
 
 - **[⁠Tattah Abel Mawunyo]               - [11335775]**: RSA Algorithm Analysis
 
-- **[Anti Bright Gyeadu]                - [11340436]**: 
-  
-  <!-- - **[Angela Acquah] - [11033579]**: -->
+- **[Anti Bright Gyeadu]                - [11340436]**: Brute-Force Password Cracking
+
+- **[Ebenezer Ofori Acquah]             - [11154989]**: RSA Algorithm Analysis
+
+- **[Addo Reuben Nii Addotey]           - [11019527]**: Modular Exponentiation Algorithm
+
+- **[Angela Acquah]                     - [11033579]**: Modular Exponentiation Algorithm
 
     <br>
     <br>
