@@ -132,6 +132,7 @@ _Add your name and ID here_
 - **[Addo Reuben Nii Addotey]           - [11019527]**: Modular Exponentiation Algorithm
 
 - **[Angela Acquah]                     - [11033579]**: Modular Exponentiation Algorithm
+- **[Abormegah Elisah Yaw]              - [10823700]**
 
     <br>
     <br>
