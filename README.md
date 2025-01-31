@@ -34,34 +34,121 @@ To run the code in this repository, ensure you have the following installed:
 
 ### Installation
 
-1. Clone this repository:
+1. **Fork the Repository**
+
+   - Go to the [CryptAnalysis repository](https://github.com/Programming-Sai/CryptAnalysis) on GitHub.
+   - In the top-right corner, click the **Fork** button to create your own copy of the repository.
+   - After forking, you’ll be directed to your own forked repository.
+
+2. **Clone Your Forked Repository**
+
+   - Clone the repository to your local machine by using your forked version’s URL:
+
    ```bash
-   git clone https://github.com/Programming-Sai/CryptAnalysis.git
+   git clone https://github.com/<your-username>/CryptAnalysis.git
    ```
-2. Navigate to the project directory:
+
+   Replace `<your-username>` with your GitHub username.
+
+3. **Navigate to the Project Directory**
+
    ```bash
    cd CryptAnalysis
    ```
-3. Create a Vitual Environment
+
+4. **Create a Virtual Environment**
 
    ```bash
    python -m venv .crypt-venv
    ```
 
-4. Activate the Venv
+5. **Activate the Virtual Environment**
 
    ```bash
-   .\.crypt-venv\Scripts\activate # Windows
+   .\.crypt-venv\Scripts\activate  # Windows
 
    # OR
 
-   source .crypt-venv/bin/activate # MacOS/Linux
+   source .crypt-venv/bin/activate  # MacOS/Linux
    ```
 
-5. Install dependencies:
+6. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
+
+---
+
+### Working with the Repository
+
+1. **Create a Branch for Your Work**  
+   After cloning your forked repository, **create a new branch** to work on your task (e.g., implementing modular exponentiation or brute force password cracking).
+
+   ```bash
+   git checkout -b my-feature-branch
+   ```
+
+   Example:
+
+   ```bash
+   git checkout -b modular-exp-work
+   ```
+
+> [!TIP]  
+> _For naming your branches, please make sure that the section you chose would be part of them name of your branch. For example, your can name your branch `mod-exp` (if you are doing the Modular exponentiation work) `rsa-prob` (for the RSA one) or `pswd-cracking` (for the password and bruteforcing.)._
+
+2. **Make Changes**  
+   Modify the appropriate files as per the assigned task. For example, you’ll be working inside `notebooks/Modular_Exponentiation_Problems/` if working on modular exponentiation.
+
+3. **Stage and Commit Your Changes**  
+   After making changes, **stage** and **commit** them to your branch:
+
+   ```bash
+   git add .
+   git commit -m "Implemented modular exponentiation function"
+   ```
+
+4. **Push Your Branch to Your Fork**  
+   Push your branch to your **forked repository** on GitHub:
+
+   ```bash
+   git push origin my-feature-branch
+   ```
+
+5. **Create a Pull Request (PR)**
+   - Go to your forked repository on GitHub.
+   - You should see a banner asking if you want to **Create a Pull Request** for the branch you just pushed.
+   - Click on **"Compare & pull request"**.
+   - Add a **title** and **description** for your PR (e.g., "Implemented modular exponentiation function").
+   - Make sure the **base repository** is `Programming-Sai/CryptAnalysis` and the **base branch** is `main`.
+   - Click **"Create Pull Request"** to submit your PR for review.
+
+---
+
+### Reviewing and Making Changes
+
+- If changes are requested after the pull request review, make the necessary edits locally.
+- **Commit** and **push** the changes to your branch. Your pull request will automatically update.
+
+```bash
+git add .
+git commit -m "Updated implementation as per review"
+git push origin my-feature-branch
+```
+
+---
+
+### Summary Workflow:
+
+1. **Fork** the repository.
+2. **Clone** your forked repo.
+3. **Create a branch** for your work.
+4. **Make changes**, **stage**, and **commit**.
+5. **Push** the branch to your fork.
+6. **Submit a pull request** to the main repository.
+
+> [!IMPORTANT]  
+> _At the bottom of the page, update this readme with your name and ID (Please for this README, make changes to only your details. leave everything else as is!!)._
 
 ---
 
@@ -89,27 +176,19 @@ To run the code in this repository, ensure you have the following installed:
 
 ```
 CryptAnalysis/
-│
-├── data/                   # Folder for any sample data used (if applicable)
-│
-├── notebooks/              # Folder for Jupyter notebooks
-│   ├── task_1_modular_exponentiation.ipynb   # Notebook for task 1
-│   ├── task_2_rsa_analysis.ipynb             # Notebook for task 2
-│   ├── task_3_password_cracking.ipynb        # Notebook for task 3
-│
-├── scripts/                # Folder for Python scripts
-│   ├── modular_exponentiation.py  # Python code for task 1 (modular exponentiation)
-│   ├── rsa_analysis.py          # Python code for task 2 (RSA decryption)
-│   ├── password_cracking.py     # Python code for task 3 (brute-force cracking)
-│
-├── results/                # Folder for storing any output data, plots, or reports
-│   ├── rsa_analysis_results.csv  # CSV files for RSA analysis results
-│   ├── password_cracking_times.csv  # CSV file for password cracking times
-│   └── performance_plots/      # Folder for storing graphs and charts
-│
-├── README.md               # Project overview, installation instructions, and usage
-├── .gitignore
-└── requirements.txt        # List of dependencies needed for the project (if applicable)
+│── data/                                # Store input/output files if needed
+│── result/                              # Store final results
+│── logs/                                # Store timing and performance logs
+│── figures/                             # Store generated graphs and plots
+│── scripts/                             # Reusable Python scripts for calculations
+│── presentation/                        # Final slides and summary notebook
+│── notebooks/                           # Jupyter Notebooks for team members
+│   ├── Modular_Exponentiation_Problems/ # Modular exponentiation work
+│   ├── Password_And_BruteForcing/       # Brute-force password attack work
+│   └── RSA_Problems/                    # RSA decryption work
+│── .gitignore                           # Ignore unnecessary files in version control
+│── README.md                            # Overview and instructions
+└── requirements.txt                     # Dependencies (if any)
 
 ```
 
@@ -124,7 +203,6 @@ _Add your name and ID here_
 - **[Menah Lartey Isaiah Nii Lartey] - [11222100]**: Modular Exponentiation Algorithm
 
 - **[⁠Tattah Abel Mawunyo] - [11335775]**: RSA Algorithm Analysis
-  <!-- - **[Angela Acquah] - [11033579]**: -->
 
     <br>
     <br>
