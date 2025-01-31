@@ -198,11 +198,21 @@ CryptAnalysis/
 
 This project is a group effort by the following team members:
 
-_Add your name and ID here_
+_Add your name, ID and selected selection here_
 
 - **[Menah Lartey Isaiah Nii Lartey] - [11222100]**: Modular Exponentiation Algorithm
 
 - **[⁠Tattah Abel Mawunyo] - [11335775]**: RSA Algorithm Analysis
+
+- **[Anti Bright Gyeadu] - [11340436]**: Brute-Force Password Cracking
+
+- **[Ebenezer Ofori Acquah] - [11154989]**: RSA Algorithm Analysis
+
+- **[Addo Reuben Nii Addotey] - [11019527]**: Modular Exponentiation Algorithm
+
+- **[Angela Acquah] - [11033579]**: Modular Exponentiation Algorithm
+
+- **[Abormegah Elisah Yaw] - [10823700]**:
 
     <br>
     <br>
