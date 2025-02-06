@@ -55,12 +55,13 @@ print(f"Direct_calculation:{Direct_time_estimate:6.f} seconds")
 print(f"Modular_calculation:{Modular_time_estimate:6.f} seconds")
 print(f"Python_calculation:{Python_time_estimate:6.f} seconds")
 # Trying to figure out the slowest or greatest speed
-if Direct_time_estimate > Modular_time_estimate and Python_time_estimate:
+if Direct_time_estimate > Modular_time_estimate and Python_time_estimate < Direct_time_estimate:
     print("Direct calulation is the slowest")
-elif Modular_time_estimate > Python_time_estimate and Direct_time_estimate:
+elif Modular_time_estimate > Python_time_estimate and Direct_time_estimate<Modular_time_estimate:
     print("Modular exponentiation formular is the slowest, hence its best to use that")
-else:
+elif Python_time_estimate > Direct_time_estimate and Modular_time_estimate:
     print("Python built in % modular is most efficient since it is the slowest ")
-
-
+else:
+    print ("All are efficient, Since the time it takes is the same for all three methods")
+    
 
